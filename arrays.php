@@ -42,6 +42,30 @@ array("Vuelo"=>"Ryanair-EW44", "Duración viaje"=>"360"),
 );
 
 
+$arraynumeropasajeros=array(
+array("Vuelo"=>"Vueling-AE12","Número de pasajeros"=>"90"),
+array("Vuelo"=>"Volotea-EA21", "Número de pasajeros"=>"75"),
+array("Vuelo"=>"Iberia-WE44","Número de pasajeros"=>"100"),
+array("Vuelo"=>"Ryanair-EW44", "Número de pasajeros"=>"60"),
+array("Vuelo"=>"Vueling-ZK87", "Número de pasajeros"=>"77"),
+array("Vuelo"=>"Volotea-UA21", "Número de pasajeros"=>"93"),
+array("Vuelo"=>"Iberia-WH44","Número de pasajeros"=>"86"),
+array("Vuelo"=>"Ryanair-EL00", "Número de pasajeros"=>"75"),
+array("Vuelo"=>"Vueling-AE12", "Número de pasajeros"=>"87"),
+array("Vuelo"=>"Volotea-EA21", "Número de pasajeros"=>"97"),
+array("Vuelo"=>"Iberia-WE44", "Número de pasajeros"=>"81"),
+array("Vuelo"=>"Ryanair-EW44", "Número de pasajeros"=>"75"),
+array("Vuelo"=>"Vueling-ZK87", "Número de pasajeros"=>"87"),
+array("Vuelo"=>"Volotea-UA21", "Número de pasajeros"=>"90"),
+array("Vuelo"=>"Iberia-WH44", "Número de pasajeros"=>"84"),
+array("Vuelo"=>"Ryanair-EL00","Número de pasajeros"=>"67"),
+array("Vuelo"=>"Vueling-AE12", "Número de pasajeros"=>"86"),
+array("Vuelo"=>"Volotea-EA21","Número de pasajeros"=>"66"),
+array("Vuelo"=>"Iberia-WE44", "Número de pasajeros"=>"40"),
+array("Vuelo"=>"Ryanair-EW44", "Número de pasajeros"=>"77"),
+array("Vuelo"=>"Vueling-ZK87", "Número de pasajeros"=>"82"),
+    );
+
 
 
 
