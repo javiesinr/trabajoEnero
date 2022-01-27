@@ -12,7 +12,33 @@ function compañias($compañia,$selct){
         }
     }
 
-//aqui me han dicho que los foreach son mas  mas faciles voy a ver como va eso
+function pajeros($arraynumeropasajeros,$select){
+    $n=0; //esto no se porque lo pongo pero me lo han dicho
+    $contador=0;
+    foreach($arraynumeropasajeros as $pajeros){
+        $vuelo=$pajeros['vuelo'];
+        $pajero=$pajero1['Numero de pasajeros'];//tampoco se porque va este aqui
+if ($vuelo==$select){
+    $n=$n+$pajero;
+    $contador++;
+}
+    }
+
+echo "La media de los pasajeros es: " .$n/$contador;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ?>
