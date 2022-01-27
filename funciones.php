@@ -12,4 +12,7 @@ function compañias($compañia,$selct){
         }
     }
 
+//aqui me han dicho que los foreach son mas  mas faciles voy a ver como va eso
+
+
 ?>
