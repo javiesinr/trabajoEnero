@@ -38,7 +38,7 @@ function destinos($arraydestino,$select){
         }
         
 
-        functionfbr($arrayFabrAvion,$selector){
+        function fabricantes ($arrayfabricante,$select){
             foreach ($arrayfabricante as $fbra){
             $fabricante=$fbra["Fabricante avion"];
             $vuelo=$fbra["Vuelo"]:
@@ -72,9 +72,35 @@ function destinos($arraydestino,$select){
         }
     }
 
+    function media ($arrayduracionviaje, $select){
+        $n=0:
+        $contador=0;
+        foreach ($arrayfabricante as $duracion) {
+        $vuelo==$duravia1("Vuelo"];
+        $duracion1==$duracionvia['Duracion del viaje'];
 
+        if ($vuelo==$selector){
+        $i=$i+$duracionvia;
+        $incremento++;
+        }
+    }
 
+$i=$i/$incremento;
+$n=$n/60;
+echo "la media de hora es " .$i/$contador
+    }
+ 
+    function ($pasajerosarraynumeropasajeros,$select){
 
+$i=0;
+foreach ($pasajerosarraynumeropasajeros as $pasajeros1){
+    $pasajerostotal=$pasajeros1["Numero de pasajeros"];
+    $vuelo=$pasajeros1['Vuelo'];
+    if ($vuelo==$select){
+        $i=$i+$pasajerostotal1:
+    }
+}
+echo "Numero de pasajero totales es ".$b;
 
-
+  }
 ?>

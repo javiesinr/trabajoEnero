@@ -44,7 +44,7 @@ array("Vuelo"=>"Ryanair-EW44", "Duración viaje"=>"360"),
 
 
 
-            $compañias=array(
+            $arraycompañias=array(
 array("Vuelo"=>"Vueling-AE12","Compañia"=>"Vueling"),
 array("Vuelo"=>"Volotea-EA21","Compañia"=>"Volotea"),
 array("Vuelo"=>"Iberia-WE44","Compañia"=>"Iberia"),
