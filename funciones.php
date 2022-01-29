@@ -85,7 +85,7 @@ function destinos($arraydestino,$select){
         $incremento++;
         }
     }
-
+/*
 $i=$i/$incremento;
 $n=$n/60;
 echo "la media de hora es " .$i/$contador;
@@ -102,4 +102,8 @@ foreach ($pasajerosarraynumeropasajeros as $pasajeros1){
     }
 }
 echo "Numero de pasajero totales es ".$i;
-    }
+}
+    //me da error en la linea 109 no se porqué 
+    ?>
+    */
+    ?>
