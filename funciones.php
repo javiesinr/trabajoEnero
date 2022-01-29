@@ -95,13 +95,11 @@ echo "la media de hora es " .$i/$contador;
 
 $i=0;
 foreach ($pasajerosarraynumeropasajeros as $pasajeros1){
-    $pasajerostotal=$pasajeros1["Numero de pasajeros"];
+    $pasajerostotal=$pasajeros1['Numero de pasajeros'];
     $vuelo=$pasajeros1['Vuelo'];
     if ($vuelo==$select){
         $i=$i+$pasajerostotal1;
     }
 }
-echo "Numero de pasajero totales es ".$b;
-
-  }
-?>
+echo "Numero de pasajero totales es ".$i;
+    }
