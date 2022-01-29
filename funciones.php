@@ -1,7 +1,9 @@
 <?php
 
 include 'arrays.php';
-
+//esto lo he copiado y me lo han dicho, porque no se como hacerlos jeje. 
+//algunas cositas si se que son, pero hay otras que no se para que las he puesto.Pero 
+//si no las pongo no funciona nada jejeje.
 function compañias($compañia,$selct){
     foreach ($compañias as $compañi){
         $compañia2=$compañi['Compañias'];
@@ -30,20 +32,20 @@ echo "La media de los pasajeros es: " .$n/$contador;
 function destinos($arraydestino,$select){
     echo "ultimos destinos";
     foreach ($arraydestino as $destinos){
-        $arraydestino as $destinosu){
-            $destino=$destinosu['Destino'];
-            $if ($vuelo==$selector){
-                echo$destino.;
-                }
-        }
+       $arraydestino= $destinosu;
+            $destinos=$destinosu['Destino'];
+            $if ($vuelo==$selector);
+            echo "Los destinos son".$destinos;
+                           }
+                        }
         
 
         function fabricantes ($arrayfabricante,$select){
             foreach ($arrayfabricante as $fbra){
-            $fabricante=$fbra["Fabricante avion"];
-            $vuelo=$fbra["Vuelo"]:
+            $fabricante = $fbra['Fabricante avion'];
+            $vuelo=$fbra["Vuelo"];
             ($vuelo==-$select){
-   echo "El fabricante es:". $fabricante ;
+          echo "El fabricante es:". $fabricante ;
              }
          }
        }
