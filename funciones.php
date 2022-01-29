@@ -42,11 +42,11 @@ function destinos($arraydestino,$select){
 
         function fabricantes ($arrayfabricante,$select){
             foreach ($arrayfabricante as $fbra){
-            $fabricante = $fbra['Fabricante avion'];
-            $vuelo=$fbra["Vuelo"];
-            ($vuelo==-$select){
-          echo "El fabricante es:". $fabricante ;
-             }
+            $fabricante= $fbra['Fabricante avion'];
+            $vuelo=$fbra["Vuelo"]
+            ($vuelo==-$select); 
+            echo "El fabricante es:".$fabricante;
+             
          }
        }
 
@@ -64,18 +64,17 @@ function destinos($arraydestino,$select){
 
 
     function destinos($arraydestino,$select){
-        echo"Los destinos son:"
+        echo"Los destinos son:";
          foreach ($arraydestino as $destino) {
         $destino=$destino1["Destino"];
-        $vuelo=$destino1["Vuelo"]
-        if
-        ($vuelo==$select){
+        $vuelo=$destino1["Vuelo"];
+        if ($vuelo==$select){
             echo $destino;
         }
     }
 
     function media ($arrayduracionviaje, $select){
-        $n=0:
+        $n=0;
         $contador=0;
         foreach ($arrayfabricante as $duracion) {
         $vuelo==$duravia1("Vuelo"];
